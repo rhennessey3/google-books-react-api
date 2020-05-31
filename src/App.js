@@ -102,7 +102,7 @@ class App extends Component {
             </div>
             <div className="bookInfoWrapper">
               <div className="bookImg">
-
+                <img src="https://picsum.photos/200" alt="Italian Trulli"></img>
               </div>
               <div className="bookInfo">
                 <p> author : C.Warren Hollister </p>
