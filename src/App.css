@@ -2,20 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +15,67 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.searchInput {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  height:35px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filterSearch {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  height:35px;
 }
+
+.filterPrintType {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:20px;
+  padding-right: 10px;
+}
+.filterPrintType p {
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+
+.filterBookType {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:20px;
+}
+
+.filterBookType p {
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.bookOutputComponent {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.bookInfoWrapper {
+  display:flex;
+}
+
+.bookTitle {
+  display:flex;
+  border:3px solid blue;
+}
+
+.bookImg {
+display:flex;
+border: 3px solid orange;
+}
+
+
