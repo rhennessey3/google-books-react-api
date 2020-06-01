@@ -68,30 +68,29 @@ class App extends Component {
           <div className="searchInput">
             <form onSubmit={this.handleSubmit}>
               Search:
-        <input
+              <input
                 type="text"
                 value={this.state.query}
                 onChange={this.handlequery}
               />
-
               <button>Search</button>
             </form>
           </div>
 
           <div className="filterSearch">
             <div className="filterPrintType">
-              <p>Print Type:</p>
+              <p>Paid or Free:</p>
               <select value={this.state.bookType} onChange={this.handleChange}>
-                <option name="All">All</option>
-                <option name="Print"> Print</option>
-                <option name="E-Book">E-Book</option>
+                <option name="ebooks">All</option>
+                <option name="free-ebooks"> Free-e-book</option>
+                <option name="paid-ebooks">Paid-e-Book</option>
               </select>
             </div>
             <div className="filterBookType">
-              <p>Book Type:</p>
+              <p>Preview Type:</p>
               <select value={this.state.bookType} onChange={this.handleChange}>
-                <option name="All">All</option>
-                <option name="Free"> Free</option>
+                <option name="partial">Partial</option>
+                <option name="full"> Full</option>
               </select>
             </div>
           </div>
