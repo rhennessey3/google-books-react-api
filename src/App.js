@@ -134,21 +134,7 @@ class App extends Component {
               </div>
             </div>))
           }
-          {/* <div className="bookOutputComponent">
-            <div className="bookTitle">
-              <h2>Henry 1</h2>
-            </div>
-            <div className="bookInfoWrapper">
-              <div className="bookImg">
-                <img src="https://picsum.photos/200" alt="Italian Trulli"></img>
-              </div>
-              <div className="bookInfo">
-                <p> author : C.Warren Hollister </p>
-                <p> Price </p>
-                <p> Description </p>
-              </div>
-            </div>
-          </div> */}
+        
 
         </main>
       </div>
